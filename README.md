@@ -47,6 +47,10 @@ Next, we'll install the AWS Amplify CLI:
 
 ```bash
 npm install -g @aws-amplify/cli
+
+# or
+
+yarn global add @aws-amplify/cli
 ```
 
 Now we need to configure the CLI with our credentials:
@@ -58,7 +62,7 @@ amplify configure
 > If you'd like to see a video walkthrough of this configuration process, click [here](https://www.youtube.com/watch?v=fWbM5DLh25U).
 
 Here we'll walk through the `amplify configure` setup. Once you've signed in to the AWS console, continue:
-- Specify the AWS Region: __us-west-2__
+- Specify the AWS Region: __us-east-1__
 - Specify the username of the new IAM user: __amplify-workshop-user__
 > In the AWS Console, click __Next: Permissions__, __Next: Tags__, __Next: Review__, & __Create User__ to create the new IAM user. Then, return to the command line & press Enter.
 - Enter the access key of the newly created user:   
